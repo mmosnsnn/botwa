@@ -8,8 +8,8 @@ module.exports = {
     use: 'packagename|authorname',
     async exec({ msg, arg, client }) {
         const { quoted, from, type } = msg;
-        const packname = arg.split("|")[0] || "Cly Bot";
-		const author = arg.split("|")[1] || "Ig: @jar.cly";
+        const packname = arg.split("|")[0] || "lynxBot";
+		const author = arg.split("|")[1] || "Bot Whtsapp";
 
         const content = JSON.stringify(quoted);
 		const isMedia = type === "imageMessage" || type === "videoMessage";
