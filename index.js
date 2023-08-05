@@ -15,7 +15,7 @@ const ora = require("ora");
 
 
 clt.commands = new clt.Collection();
-clt.prefix = "!";
+clt.prefix = ".";
 
 
 
